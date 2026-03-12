@@ -3,6 +3,7 @@ services:
     image: dockurr/macos
     container_name: macos
     environment:
+      DISK_SIZE: "256G"
       VERSION: "14"
     devices:
       - /dev/kvm
